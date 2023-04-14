@@ -1,0 +1,40 @@
+.modal {
+  // only desktop
+  @media screen and (min-width: 736px) {
+    width: 60rem;
+  }
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  padding: 2rem;
+}
+
+.holder {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+
+  &__name {
+    flex: 1;
+  }
+
+  &__popover {
+    // only desktop
+    @media screen and (min-width: 736px) {
+      max-width: 30rem;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@import 'styles/_colors.scss';
+@import 'styles/themes/param.scss';
+
+.holder {
+  padding-bottom: 1.5rem;
+  line-height: 2.5rem;
+  box-shadow: $card-box-shadow;
+  border-radius: 4px;
+  height: 100%;
+
+  &:hover {
+    box-shadow: $card-box-shadow-hovered;
+    transition: 0.3s all;
+  }
+
+  &__sold-out {
+    &:hover {
+      box-shadow: $card-box-shadow;
+    }
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__icon {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+    &__sold-out {
+      opacity: 0.5;
+    }
+  }
+
+  &__description {
+    font-size: 1.4rem;
+    padding: 0 1rem;
+  }
+}

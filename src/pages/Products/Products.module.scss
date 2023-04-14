@@ -1,0 +1,20 @@
+@import 'styles/_colors.scss';
+
+.wrapper {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100%;
+  gap: 2rem;
+
+  @media screen and (max-width: 736px) {
+    grid-template-columns: 1fr;
+  }
+
+  &__empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+}

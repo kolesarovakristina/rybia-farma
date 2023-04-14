@@ -1,0 +1,23 @@
+@import 'styles/_colors.scss';
+
+.navigation {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  @media screen and (max-width: 736px) {
+    gap: 4rem;
+  }
+}
+
+.link {
+  &:hover {
+    color: $blue;
+    transition: all 0.3s;
+  }
+
+  &__active {
+    color: $blue;
+  }
+}

@@ -1,0 +1,10 @@
+@import 'styles/_colors.scss';
+
+.wrapper {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+
+  &__required-mark {
+    color: $red;
+  }
+}

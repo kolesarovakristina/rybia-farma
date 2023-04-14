@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import 'themes/scrollbar';
+@import 'antd/dist/reset.css';
+@import 'react-phone-number-input/style.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+main {
+  flex: 1;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// base antd styles for input
+// <transition & box shadow is removed> cuz it's unnecessary lol
+input[type='tel'] {
+  padding: 0.4rem 1.1rem;
+  color: rgba(0, 0, 0, 0.88);
+  line-height: 1.5;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: white;
+  width: 100%;
+  min-width: 0;
+  outline: none;
+  font-size: 1.4rem;
+
+  &::placeholder {
+    font-size: 1.2rem;
+    color: #d9d9d9;
+  }
+
+  &:focus,
+  &:active {
+    border: 1px solid #1677ff;
+  }
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.ant-image .ant-image-mask {
+  background: rgba(79, 154, 200, 0.3);
+}
+.ant-picker-calendar.ant-picker-calendar-full .ant-picker-panel {
+  background: none;
+}
+.ant-picker-calendar .ant-picker-panel {
+  background: none;
+}
+.ant-picker-calendar .ant-picker-panel {
+  background: none;
+}
+.ant-picker-calendar {
+  background: none;
+}

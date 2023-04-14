@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  gap: 1rem;
+
+  @media screen and (max-width: 736px), (max-width: 1110px) {
+    flex-direction: column;
+  }
+
+  &__legend {
+    display: flex;
+    gap: 2rem;
+
+    @media screen and (max-width: 736px) {
+      flex-direction: column;
+      justify-content: center;
+      gap: 0;
+    }
+  }
+
+  &__date {
+    display: flex;
+    gap: 1rem;
+  }
+
+  &__month {
+    text-transform: capitalize;
+  }
+}

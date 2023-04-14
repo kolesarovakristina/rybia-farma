@@ -1,0 +1,25 @@
+@import 'styles/_colors.scss';
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  height: 12rem;
+  max-width: 128rem;
+  margin: 0 auto;
+
+  &__right-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+
+    @media screen and (max-width: 736px) {
+      justify-content: center;
+    }
+  }
+
+  &__logo {
+    @media screen and (max-width: 736px) {
+      display: none;
+    }
+  }
+}

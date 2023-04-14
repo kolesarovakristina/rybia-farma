@@ -1,0 +1,24 @@
+@import 'styles/_colors.scss';
+
+.holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 8rem;
+  }
+
+  &__amount {
+    font-weight: 600;
+    color: $blue;
+  }
+
+  &__name {
+    font-size: 1.6rem;
+  }
+}

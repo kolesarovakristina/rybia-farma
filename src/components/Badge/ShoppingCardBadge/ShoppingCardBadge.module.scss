@@ -1,0 +1,11 @@
+@import 'styles/_colors.scss';
+
+.wrapper {
+  cursor: pointer;
+
+  &__icon {
+    &:hover {
+      color: $blue;
+    }
+  }
+}

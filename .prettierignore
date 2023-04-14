@@ -1,0 +1,9 @@
+build
+coverage
+*.html
+react-app-env.d.ts
+src/tests
+src/analytics
+package-lock.json
+package.json
+README.md
