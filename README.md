@@ -1,6 +1,5 @@
 ### Rybia farma
 
-TODO:
+All secured keys had to be removed due to security.
 
-- Error boundaries
-- Captcha - 3. step in basket modal
+Demo - https://rybia-farma.web.app/
